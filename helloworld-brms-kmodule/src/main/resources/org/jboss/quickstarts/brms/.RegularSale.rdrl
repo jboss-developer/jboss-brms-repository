@@ -1,0 +1,25 @@
+<org.uberfire.java.nio.base.Properties serialization="custom">
+  <unserializable-parents/>
+  <map>
+    <default>
+      <loadFactor>0.75</loadFactor>
+      <threshold>12</threshold>
+    </default>
+    <int>16</int>
+    <int>7</int>
+    <string>fileKey</string>
+    <string>AnyObjectId[faf572097f16c296f81e532f8c9d3b50b380496f]</string>
+    <string>isDirectory</string>
+    <boolean>false</boolean>
+    <string>isOther</string>
+    <boolean>false</boolean>
+    <string>isSymbolicLink</string>
+    <boolean>false</boolean>
+    <string>dcore.description[0]</string>
+    <string>A Regular sale is always approved</string>
+    <string>isRegularFile</string>
+    <boolean>true</boolean>
+    <string>size</string>
+    <long>184</long>
+  </map>
+</org.uberfire.java.nio.base.Properties>

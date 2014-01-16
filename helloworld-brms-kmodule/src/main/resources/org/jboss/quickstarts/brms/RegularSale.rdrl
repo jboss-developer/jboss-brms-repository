@@ -1,0 +1,9 @@
+package org.jboss.quickstarts.brms;
+
+rule "RegularSale"
+	dialect "mvel"
+	when
+		$sale : Sale( customer.customerType.type != "BAD" )
+	then
+		$sale.setApproved( true );
+end

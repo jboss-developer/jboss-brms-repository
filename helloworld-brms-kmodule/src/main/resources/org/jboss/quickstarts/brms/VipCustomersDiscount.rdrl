@@ -1,0 +1,9 @@
+package org.jboss.quickstarts.brms;
+
+rule "VipCustomersDiscount"
+	dialect "mvel"
+	when
+		$sale : Sale( customer.customerType.type == "VIP" )
+	then
+		$sale.setDiscount( 0.5 );
+end
