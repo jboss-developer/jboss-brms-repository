@@ -7,7 +7,6 @@ public class CustomerType  implements java.io.Serializable {
 
 static final long serialVersionUID = 1L;
     
-    @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Position(value = 0)
     private java.lang.String type;
 
@@ -26,21 +25,5 @@ static final long serialVersionUID = 1L;
 
     public void setType(  java.lang.String type ) {
         this.type = type;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        org.jboss.quickstarts.brms.CustomerType that = (org.jboss.quickstarts.brms.CustomerType)o;
-        if (type != null ? !type.equals(that.type) : that.type != null) return false;
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = 17;
-        result = 13 * result + (type != null ? type.hashCode() : 0);
-        return result;
     }
 }

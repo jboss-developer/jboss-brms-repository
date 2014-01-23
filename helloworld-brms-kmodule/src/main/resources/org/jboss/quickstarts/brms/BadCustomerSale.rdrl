@@ -1,6 +1,6 @@
 package org.jboss.quickstarts.brms;
 
-rule "BadCustomerDenySale"
+rule "BadCustomerSale"
 	dialect "mvel"
 	when
 		$sale : Sale( customer.customerType.type == "BAD" )

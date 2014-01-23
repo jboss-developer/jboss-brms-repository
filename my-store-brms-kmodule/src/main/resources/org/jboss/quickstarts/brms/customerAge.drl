@@ -1,0 +1,10 @@
+package org.jboss.quickstarts.brms;
+
+rule "Customer Age"
+salience -10
+when
+	$sale : Sale(  getAge ( customer.birthDate) < 18 )
+then
+	$sale.setApproved( false );
+end
+

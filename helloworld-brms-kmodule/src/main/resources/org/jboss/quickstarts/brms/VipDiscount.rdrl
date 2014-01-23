@@ -1,6 +1,6 @@
 package org.jboss.quickstarts.brms;
 
-rule "VipCustomersDiscount"
+rule "VipDiscount"
 	dialect "mvel"
 	when
 		$sale : Sale( customer.customerType.type == "VIP" )

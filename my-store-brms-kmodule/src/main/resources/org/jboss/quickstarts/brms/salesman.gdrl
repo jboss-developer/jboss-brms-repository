@@ -1,0 +1,3 @@
+package org.jboss.quickstarts.brms;
+
+global org.jboss.quickstarts.brms.Salesman $salesman;

@@ -1,0 +1,9 @@
+package org.jboss.quickstarts.brms;
+
+rule "registerSale"
+	dialect "mvel"
+	when
+		There's a sale
+	then
+		Register the sale to the salesman
+end

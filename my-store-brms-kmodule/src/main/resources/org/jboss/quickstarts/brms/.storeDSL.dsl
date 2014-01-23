@@ -8,7 +8,7 @@
     <int>16</int>
     <int>6</int>
     <string>fileKey</string>
-    <string>AnyObjectId[27f3717bf11b07b75327fa712409ab0218ece64a]</string>
+    <string>AnyObjectId[4adb91b20a5632d78bffc3d4b1e94e46522e16cb]</string>
     <string>isDirectory</string>
     <boolean>false</boolean>
     <string>isOther</string>
@@ -18,6 +18,6 @@
     <string>isRegularFile</string>
     <boolean>true</boolean>
     <string>size</string>
-    <long>208</long>
+    <long>110</long>
   </map>
 </org.uberfire.java.nio.base.Properties>

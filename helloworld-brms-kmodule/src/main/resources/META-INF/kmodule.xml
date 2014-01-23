@@ -1,1 +1,5 @@
-<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="helloworldKBase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+    <ksession name="helloworldKSession" type="stateless" default="true" clockType="realtime"/>
+  </kbase>
+</kmodule>
