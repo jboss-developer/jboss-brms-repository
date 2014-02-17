@@ -6,4 +6,5 @@ rule "VipDiscount"
 		$sale : Sale( customer.customerType.type == "VIP" )
 	then
 		$sale.setDiscount( 0.5 );
+		System.out.println("VIP discount applied");
 end

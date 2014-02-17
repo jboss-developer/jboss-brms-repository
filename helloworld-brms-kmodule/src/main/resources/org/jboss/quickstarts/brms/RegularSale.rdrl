@@ -6,4 +6,5 @@ rule "RegularSale"
 		$sale : Sale( customer.customerType.type != "BAD" )
 	then
 		$sale.setApproved( true );
+		System.out.println("Sale approved");
 end

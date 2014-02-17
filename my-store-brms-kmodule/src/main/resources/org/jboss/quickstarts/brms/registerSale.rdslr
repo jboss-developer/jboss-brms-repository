@@ -6,4 +6,5 @@ rule "registerSale"
 		There's a sale
 	then
 		Register the sale to the salesman
+		Print sale registered to salesmen
 end

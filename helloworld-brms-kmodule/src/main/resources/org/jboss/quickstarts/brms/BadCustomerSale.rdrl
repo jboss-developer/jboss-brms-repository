@@ -6,4 +6,5 @@ rule "BadCustomerSale"
 		$sale : Sale( customer.customerType.type == "BAD" )
 	then
 		$sale.setApproved( false );
+		System.out.println("Bad customer. Sale denied");
 end

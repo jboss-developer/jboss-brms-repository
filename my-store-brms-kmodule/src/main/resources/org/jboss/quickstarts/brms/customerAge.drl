@@ -6,5 +6,6 @@ when
 	$sale : Sale(  getAge ( customer.birthDate) < 18 )
 then
 	$sale.setApproved( false );
+        System.out.println("Sale denied for customer with less than 18 years old");
 end
 
