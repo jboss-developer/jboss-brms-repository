@@ -1,0 +1,6 @@
+rule "helloworldrule"
+ruleflow-group "helloWorldGroup"
+when 
+then
+	System.out.println("Hello World from rule!");
+end
