@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.quickstarts.brms</groupId>
   <artifactId>helloworld-brms-kmodule</artifactId>
-  <version>6.1.0</version>
+  <version>1.0.0</version>
   <name>Helloworld BRMS KModule</name>
   <description>A KIE project or module is simply a Maven Java project or module; with an additional metadata file META-INF/kmodule.xml.</description>
   <repositories>

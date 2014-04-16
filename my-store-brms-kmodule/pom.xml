@@ -4,14 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.quickstarts.brms</groupId>
   <artifactId>my-store-brms-kmodule</artifactId>
-  <version>6.1.0</version>
+  <version>1.0.0</version>
   <name>My Store BRMS Kmodule</name>
   <description>My store KModule that includes helloworld kmodule</description>
   <dependencies>
     <dependency>
       <groupId>org.jboss.quickstarts.brms</groupId>
       <artifactId>helloworld-brms-kmodule</artifactId>
-      <version>6.1.0</version>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
   <repositories>

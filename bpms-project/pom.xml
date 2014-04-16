@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.quickstarts.brms</groupId>
   <artifactId>bpms_project</artifactId>
-  <version>6.1.0</version>
+  <version>1.0.0</version>
   <name>bpms-project</name>
   <repositories>
     <repository>
