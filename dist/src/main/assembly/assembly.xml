@@ -27,7 +27,7 @@
     <fileSets>
         <fileSet>
             <useDefaultExcludes>false</useDefaultExcludes>
-            <directory>${basedir}/target/repos/</directory>
+            <directory>${basedir}/target/repo/</directory>
             <outputDirectory>/</outputDirectory>
             <fileMode>644</fileMode>
             <directoryMode>755</directoryMode>
