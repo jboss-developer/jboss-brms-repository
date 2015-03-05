@@ -9,8 +9,8 @@
   <description>A KIE project or module is simply a Maven Java project or module; with an additional metadata file META-INF/kmodule.xml.</description>
   <repositories>
     <repository>
-      <id>guvnor-m2-repo</id>
-      <name>Guvnor M2 Repo</name>
+      <id>brms-m2-repo</id>
+      <name>BRMS M2 Repo</name>
       <url>http://localhost:8080/business-central/maven2/</url>
     </repository>
   </repositories>
