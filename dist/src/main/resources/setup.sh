@@ -17,5 +17,7 @@ done
 # Git repository
 cd "${dest}"
 git init
+git config --global user.email "rzhang@redhat.com"
+git config --global user.name "Ryan Zhang"
 git add .[A-z]* *
 git commit -m "Initial commit" -a
